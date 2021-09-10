@@ -290,13 +290,13 @@ button:hover{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 80%;
+  width: 100%;
 }
 .skills__css{
-  width: 75%;
+  width: 100%;
 }
 .skills__js{
-  width: 55%;
+  width: 100%;
 }
 /* ===== WORK =====*/
 .work{
