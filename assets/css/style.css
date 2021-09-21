@@ -129,6 +129,17 @@ img{
   align-items: center;
   font-weight: var(--font-semi);
 }
+
+.translate-port, .translate-eng, .tema-dark {
+  font-family: 'Poppins', sans-serif;
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  font-size: var(--normal-font-size);
+}
+
+
+
 @media screen and (max-width: 768px){
   .nav__menu{
     position: fixed;
@@ -152,6 +163,43 @@ img{
   position: relative;
 }
 .nav__link:hover::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.translate-eng:hover{
+  position: relative;
+}
+.translate-eng:hover::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.translate-port:hover{
+  position: relative;
+}
+.translate-port:hover::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.tema-dark:hover{
+  position: relative;
+  color: var(--first-color);
+}
+.tema-dark:hover:after{
   position: absolute;
   content: "";
   width: 100%;
